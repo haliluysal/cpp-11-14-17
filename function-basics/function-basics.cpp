@@ -1,6 +1,6 @@
 #include <iostream>
-// Prototype or declaration
-int Add(int, int);
+#include "Add.h"
+
 
 int main()
 {
@@ -8,16 +8,11 @@ int main()
 
 	std::cout << "Enter first number: ";
 	std::cin >> x;
-	std::cout << "Enter Second number: ";
+	std::cout << "Enter second number: ";
 	std::cin >> y;
 
 	int result = Add(x, y);
+
+	return 0;
 }
 
-int Add(int x, int y)
-{
-	int sum = x + y;
-	std::cout << "Sum is: " << sum << std::endl;
-
-	return sum;
-}
