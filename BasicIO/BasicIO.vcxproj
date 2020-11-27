@@ -24,6 +24,7 @@
     <ProjectGuid>{e5d89a41-4785-465b-af65-c03c1e781819}</ProjectGuid>
     <RootNamespace>BasicIO</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>01-BasicIO</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
