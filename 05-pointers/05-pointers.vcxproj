@@ -22,7 +22,11 @@
     <Text Include="notes.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="pointer-functions.cpp" />
     <ClCompile Include="pointers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pointer-functions.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
