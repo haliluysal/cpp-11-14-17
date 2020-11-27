@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello-world", "hello-world\hello-world.vcxproj", "{2D8A2E30-41AD-4413-B3A8-F6139FA55275}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "00-hello-world", "hello-world\hello-world.vcxproj", "{2D8A2E30-41AD-4413-B3A8-F6139FA55275}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BasicIO", "BasicIO\BasicIO.vcxproj", "{E5D89A41-4785-465B-AF65-C03C1E781819}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01-BasicIO", "BasicIO\BasicIO.vcxproj", "{E5D89A41-4785-465B-AF65-C03C1E781819}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "function-basics", "function-basics\function-basics.vcxproj", "{15E60E46-6F57-4107-BE47-B151E19B356C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02-function-basics", "function-basics\function-basics.vcxproj", "{15E60E46-6F57-4107-BE47-B151E19B356C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03-debugging-basics", "03-debugging-basics\03-debugging-basics.vcxproj", "{D9B96E7B-2B7A-486B-A0A0-F404D88AA0EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{15E60E46-6F57-4107-BE47-B151E19B356C}.Release|x64.Build.0 = Release|x64
 		{15E60E46-6F57-4107-BE47-B151E19B356C}.Release|x86.ActiveCfg = Release|Win32
 		{15E60E46-6F57-4107-BE47-B151E19B356C}.Release|x86.Build.0 = Release|Win32
+		{D9B96E7B-2B7A-486B-A0A0-F404D88AA0EC}.Debug|x64.ActiveCfg = Debug|x64
+		{D9B96E7B-2B7A-486B-A0A0-F404D88AA0EC}.Debug|x64.Build.0 = Debug|x64
+		{D9B96E7B-2B7A-486B-A0A0-F404D88AA0EC}.Debug|x86.ActiveCfg = Debug|Win32
+		{D9B96E7B-2B7A-486B-A0A0-F404D88AA0EC}.Debug|x86.Build.0 = Debug|Win32
+		{D9B96E7B-2B7A-486B-A0A0-F404D88AA0EC}.Release|x64.ActiveCfg = Release|x64
+		{D9B96E7B-2B7A-486B-A0A0-F404D88AA0EC}.Release|x64.Build.0 = Release|x64
+		{D9B96E7B-2B7A-486B-A0A0-F404D88AA0EC}.Release|x86.ActiveCfg = Release|Win32
+		{D9B96E7B-2B7A-486B-A0A0-F404D88AA0EC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
