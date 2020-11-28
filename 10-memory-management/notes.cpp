@@ -13,6 +13,17 @@
 
 * new: allocates memory
 * delete: de allocates the memory
-*		<type> *<var> = new <type>
+*		<type> *<var> = new <type> 
+
+
+- malloc											new
+* function											operator
+* requires size during the allocation				size is ascertained from the type
+* cannot initialize memory							can initialize memory
+* caanot call constructors							can call constructors
+* needs type casting (void pointer)					returns correct type of pointer
+* cannot be customized								customized through overloading
+* returns NULL on failure							throws exception
+* 
 
 */
