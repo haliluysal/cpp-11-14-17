@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01-BasicIO", "02-BasicIO\Ba
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08-const-qualifier", "08-const-qualifier\08-const-qualifier.vcxproj", "{5DD2BBF8-DF8A-4906-9B7E-E5A8FD999FDC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09-function-overloading", "09-function-overloading\09-function-overloading.vcxproj", "{96CCB4B4-F07E-48FE-BE93-E86D0F10B3E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{5DD2BBF8-DF8A-4906-9B7E-E5A8FD999FDC}.Release|x64.Build.0 = Release|x64
 		{5DD2BBF8-DF8A-4906-9B7E-E5A8FD999FDC}.Release|x86.ActiveCfg = Release|Win32
 		{5DD2BBF8-DF8A-4906-9B7E-E5A8FD999FDC}.Release|x86.Build.0 = Release|Win32
+		{96CCB4B4-F07E-48FE-BE93-E86D0F10B3E3}.Debug|x64.ActiveCfg = Debug|x64
+		{96CCB4B4-F07E-48FE-BE93-E86D0F10B3E3}.Debug|x64.Build.0 = Debug|x64
+		{96CCB4B4-F07E-48FE-BE93-E86D0F10B3E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{96CCB4B4-F07E-48FE-BE93-E86D0F10B3E3}.Debug|x86.Build.0 = Debug|Win32
+		{96CCB4B4-F07E-48FE-BE93-E86D0F10B3E3}.Release|x64.ActiveCfg = Release|x64
+		{96CCB4B4-F07E-48FE-BE93-E86D0F10B3E3}.Release|x64.Build.0 = Release|x64
+		{96CCB4B4-F07E-48FE-BE93-E86D0F10B3E3}.Release|x86.ActiveCfg = Release|Win32
+		{96CCB4B4-F07E-48FE-BE93-E86D0F10B3E3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
